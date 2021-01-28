@@ -3,8 +3,8 @@
 }
 
 header {
-  background-color: #211a1d;
-  color: #ffffff;
+  background-color: #136104;
+  color: #000000;
   width: 100%;
   padding: 20px;
 }
@@ -25,13 +25,11 @@ header ul li {
 }
 
 section {
-  padding: 5%;
-  background-color: #f8f0fb;
+  padding: 2.5%;
+  background-color: white;
 }
 
-img {
-  border: 5px solid #8075ff;
-}
+
 
 h1,
 h2,
@@ -39,7 +37,7 @@ h3,
 h4,
 h5 {
   /*Purple*/
-  color: #6320ee;
+  color: #010633;
   margin-bottom: 1em;
 }
 
@@ -48,7 +46,7 @@ h1 {
 }
 
 h2 {
-  font-size: 175%;
+  font-size: 400%;
 }
 
 h3 {
@@ -105,7 +103,7 @@ footer {
 
 .image-container img {
   vertical-align: top;
-  border: 5px solid #747c92;
+  border: 2.5px solid #1421d4;
 }
 
 .image-container img:first-of-type {
@@ -118,20 +116,27 @@ footer {
 }
 
 .giraffe {
-  background-color: #465775;
+  background-color: #483C46;
   color: #56e39f;
 }
 
-.giraffe h2 {
-  color: #ef6f6c;
+.giraffe h2,h3 {
+  color: white;
+}
+.giraffe p {
+  color: #BEEE62;
+ }
+
+.news {
+  text-align: center
 }
 
 .card {
   display: inline-block;
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
-  width: 30%;
+  width: 20%;
   border: 1px solid black;
   border-radius: 10px;
 }
@@ -160,12 +165,15 @@ footer {
   background-size: cover;
   background-position: center;
   padding: 100px 5%;
+  border-radius:15px
+  
 }
 
 .education-container {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
   max-width: 400px;
+  border-radius: 15px;
 }
 
 .education-container h3,
@@ -173,16 +181,32 @@ footer {
   margin-bottom: 1em;
 }
 
+.education-container button { 
+  font-size: 22px;
+  background-color: rgb(13, 241, 116);
+  color:black;
+  border-radius: 10px;
+ }
 /*Membership*/
 
 .membership {
   text-align: center;
   background-color: #fffffc;
+  
 }
-
+.membership p {  
+  max-width: 700px;
+  margin-left: 250px;
+ }
 .membership h2 {
   color: #ff3f00;
 }
+
+.membership button { 
+  font-size: 22px;
+  background-color: rgb(13, 241, 116);
+  color:black
+ }
 
 .membership strong {
   color: #ff7f11;
