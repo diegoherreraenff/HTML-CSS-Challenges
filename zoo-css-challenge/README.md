@@ -1,4 +1,4 @@
-# Zoo Exercise Instructions
+n# Zoo Exercise Instructions
 
 You have been hired by a zoo to build a website.
 
@@ -68,7 +68,7 @@ Make sure all the links open in a new tab.
 
 The badge that says ‘Opening 2021’ we’d like to be on the top right instead of the bottom right.
 
-When a user hovers over the badge, add a transition so the change in colour is smoother.
+When a user hovers over the badge, add a transition so the change in colour is smoother..
 
 ## 10) New section
 

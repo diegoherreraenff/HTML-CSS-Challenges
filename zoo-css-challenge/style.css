@@ -53,17 +53,37 @@ h3 {
   font-size: 150%;
 }
 
-button {
+#button1 {
   display: inline-block;
   border-radius: 3px;
   cursor: pointer;
   padding: 10px 20px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
-  background-color: #372772;
-  border: 2px solid black;
+  background-color: #000000;
+  border: 2px solid rgb(255, 1, 1);
   color: #fff;
 }
 
+#button2 {
+  display: inline-block;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px 0 #0cf3d47a;
+  background-color: #0cf3d4ce;
+  border: 2px solid black;
+  color: white;
+}
+#button3 {
+  display: inline-block;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ff0000;
+  border: 2px solid black;
+  color: #fff;
+}
 footer {
   background-color: #211a1d;
   color: #ffffff;
@@ -79,12 +99,13 @@ footer {
 #badge {
   height: 120px;
   width: 120px;
-  background-color: #bbb;
+  background-color: rgb(219, 103, 103);
   border-radius: 50%;
   display: inline-block;
   position: fixed;
   bottom: 20px;
   right: 20px;
+  transition: top;
 
   display: flex;
   justify-content: center;
@@ -215,5 +236,5 @@ footer {
 /*Programs*/
 
 .programs .card {
-  display: block;
-}
+  display: inline-block;
+
